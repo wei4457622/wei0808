@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bar {
+	background-color: #c6c6c6;
+	height: 30px;
+
+}
+
+.bar ul {
+	float: right;
+}
+
+.bar li {
+	float: left;
+	margin: 5px;
+}
+
+.bar li a {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.bar li img {
+	float: left;
+	margin-right: 5px;
+}
+
+.bar li span {
+	float: left;
+}
+
+.facebook {
+	border-right: 2px solid #cccccc;
+	padding-right: 8px;
+}
+
+.facebook span {
+  color:#4460a0;
+}
+
+.twitter span {
+	color: #00aaec;
+}
+
+.header-logo {
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+}
+
+.header-logo a {
+	background: url(../images/logo.jpg);
+	width: 183px;
+	height: 51px;
+	display: block;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.header-menu ul {
+	float: right;
+	margin-top: 15px;
+}
+
+.header-menu li {
+	float: left;
+	width: 80px;
+	height: 20px;
+	letter-spacing: 1px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+}
+.header-menu li a {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #00cc99;
+	font-weight: bold;
+
+}
+
+.header-menu li:hover {
+	border-bottom: solid 3px #00cc99;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.list {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.list li h2 {
+	color: #00cc99;
+	font-size: 24px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.list li {
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+	border: solid 1px #d6d6d6;
+	box-shadow: 1px 3px 3px #d6d6d6;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.list li p {
+	text-align: center;
+	padding: 5px;
+	padding-bottom: 15px;
+	color: #333333;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.table {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.table tr {
+	width: 180px;
+}
+
+.table th, .table td {
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.table-title {
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.table .grey {
+	background-color: #f7f7f7;
+}
+
+.greenFz {
+	color: #26ad88;
+}
+
+.box {
+	width: 800px;
+	padding: 15px;
+	background-image: url(../images/bg.png);
+	margin-top: 30px;
+	background-repeat: repeat-x;
+	background-color: #359377;
+}
+.box form {
+	height: 300px;
+}
+.box h2 {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+.box #textarea {
+	width: 350px;
+	height: 270px;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.formLeft {
+	float: left;
+}
+
+.formRight {
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	line-height: 20px;
+}
+
+.formRight input {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.formRight label {
+	font-size: 18px;
+	color: white;
+}
+
+.formRight #submit {
+	float: right;
+	margin-top: 5px;
+	color: white;
+	background-color: #26ad88;
+	padding: 5px 15px;
+	border: none;
+	border-radius: 5px;
+}
+
+.formRight #submit:hover {
+	box-shadow: 0px 2px 10px grey;
+	cursor: pointer;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/footerLogo.png);
+	background-repeat: no-repeat;
+	background-position: 10px 20px;
+	position: relative;
+}
+
+.footer p {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	line-height: 20px;
+}
+
+.footer p span{
+	color: red;
+}
